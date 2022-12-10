@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 5% 11%;
+  background-color: #000000;
+  color: #fffefe;
+  font-family: 'Roboto';
+}
+
+/* common styles */
+.cover {
+  margin-bottom: 13%;
+  margin-top: 13%;
+  text-align: center;
+}
+
+.cover .last-name {
+  font-weight: 600;
+}
+
+.cover .position {
+  color: #4a91e3;
+}
+
+@media screen and (max-width: 600px) {
+  .cover .name {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 39%;
+  }
+  .cover .email-id {
+    font-weight: 500;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cover .profession {
+    color: #cfcecf;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cover .name {
+    font-size: 170px;
+    font-weight: 300;
+  }
+  .cover .email-id {
+    position: absolute;
+    top: 10%;
+    right: 13%;
+    font-weight: 500;
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .cover .profession {
+    color: #cfcecf;
+    font-size: 55px;
+    font-weight: 600;
+  }
+}
+
+.image-wrapper .product-images {
+  width: 30%;
+  margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .image-wrapper .product-images {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+.customer-label-phrase {
+  color: #b9e987;
+}
+
+.ruler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ruler .ruler-line {
+  display: inline-block;
+  height: 1px;
+  background: #fffefe;
+  margin: 15px;
+}
+
+.ruler .ruler-line.ruler-line-1 {
+  width: 4%;
+  border-radius: 25%;
+}
+
+.ruler .ruler-line.ruler-line-2 {
+  width: 26%;
+  border-radius: 25%;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5% auto;
+}
+
+/* when the maximum screen width is 600px */
+@media screen and (max-width: 600px) {
+  .image-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 67px;
+  }
+  .image-wrapper .product-images {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .customers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .customers .customer-label {
+    color: #cfcecf;
+    font-size: 30px;
+    margin-bottom: 75px;
+  }
+  .customers .logo {
+    margin: 35px;
+    width: 20%;
+    height: 100%;
+  }
+  .customers .logo.logo-4 {
+    margin-bottom: 75px;
+    width: 30%;
+  }
+  .phrase {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+    margin: 65px 10px;
+  }
+}
+
+/* when the minimum screen width is 600px */
+@media screen and (min-width: 600px) {
+  .image-wrapper {
+    margin-bottom: 160px;
+  }
+  .customers {
+    text-align: center;
+  }
+  .customers .customer-label {
+    color: #cfcecf;
+    font-size: 55px;
+    margin-bottom: 75px;
+  }
+  .customers .logo {
+    margin: 61px;
+    width: 8%;
+    height: 42px;
+  }
+  .customers .logo.logo-3 {
+    height: 77px;
+    width: 6%;
+  }
+  .customers .logo.logo-4 {
+    height: 33px;
+  }
+  .customers .logo.logo-6 {
+    height: 60px;
+  }
+  .phrase {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin: 69px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
